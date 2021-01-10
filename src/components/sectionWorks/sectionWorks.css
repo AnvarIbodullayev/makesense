@@ -1,0 +1,52 @@
+#sectionWorks{
+    margin: 150px 0;
+    padding: 10px 0;
+}
+#sectionWorks .textBox{
+    margin: 30px 0;
+}
+#sectionWorks h2{
+    font-family: Playfair Display;
+}
+#sectionWorks hr{
+    background-color: #5C60CF;
+    width: 2%;
+    margin: 10px auto;
+    opacity: 1;
+}
+#sectionWorks .work_item{
+    padding: 0 105px;
+    margin-top: 100px;
+}
+#sectionWorks .work_item__card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 20px 12px rgb(0 0 0 / 8%);
+}
+#sectionWorks .work_item__card .blue{
+    background-color: #4BC3F3;
+}
+#sectionWorks .work_item__card .bak{
+    background-color:  #5C60CF;
+}
+#sectionWorks .work_item__card .c_card{
+    width: 50%;
+    height: 400px;
+}
+#sectionWorks .work_item__card .right{
+    background-color: #fff;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px 0 0;
+}
+#sectionWorks .work_item__card .right button{
+    margin-top: 40px!important;
+}
+#sectionWorks .work_item__card .right h1{
+    font-family: Playfair Display;
+}

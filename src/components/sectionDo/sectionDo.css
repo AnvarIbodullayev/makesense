@@ -1,0 +1,53 @@
+#sectionDo{
+    margin: 150px 0;
+    padding: 10px 0;
+}
+#sectionDo .textBox{
+    margin: 30px 0;
+}
+#sectionDo h2{
+    font-family: Playfair Display;
+}
+#sectionDo hr{
+    background-color: #5C60CF;
+    width: 2%;
+    margin: 10px auto;
+    opacity: 1;
+}
+#sectionDo .block{
+    text-align: center;
+    transition: 0.75s;
+    cursor: pointer;
+    padding: 14px 0;
+    box-shadow: inset 0 0 0px 0px #0000001a;
+}
+#sectionDo .block:hover{
+    box-shadow: inset 0 0 14px 1px #0000001a;
+}
+#sectionDo .block .circle_box{
+    width: 80px;
+    margin: 10px auto;
+}
+#sectionDo .block .circle_box .circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+#sectionDo .block .circle_box .circle, .circle_mini{
+    background: linear-gradient(120deg, #7F7FD5, #91EAE4);
+}
+#sectionDo .block .circle_box .circle_mini{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+#sectionDo .block .circle_box .left{margin-left: auto;}
+#sectionDo .block .circle_box .right{margin-right: auto;}
+#sectionDo .block h4{
+    font-family: Montserrat, regular!important;
+    line-height: 40px;
+}
+#sectionDo .block p{
+    color: #6b6b6b;
+    font-family: initial;
+}

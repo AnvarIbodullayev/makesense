@@ -1,0 +1,21 @@
+.buttonDefault{
+    font-family: Montserrat, regular!important;
+    font-size: 16px!important;
+    border-radius: 27px!important;
+    width: 215px;
+    height: 45px;
+    background-color: #5C60CF;
+    color: #fff;
+    border: none;
+    margin-top: 10px!important;
+    font-weight: bold;
+    box-shadow: 0 0 13px 2px rgba(0, 0, 0, .2);
+    transition: 0.75s;
+}
+.buttonDefault:active{
+    transform: scale(0.9);
+    background-color: #3f4292;
+}
+.buttonDefault:focus{
+    outline: none!important;
+}
